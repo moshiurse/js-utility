@@ -1,10 +1,9 @@
-/* 
-    @isObject(value)
-    @param (*) any type of value
-    @returns {boolean} returns True if Object otherwise false
-
-*/
-
+/**
+ * @isObject(value) Check value is Object or not
+ * @param (*) any type of value
+ * @returns {boolean} returns True if Object otherwise false
+ * 
+ */
 export default function isObject(value) {
     const type = typeof value;
 

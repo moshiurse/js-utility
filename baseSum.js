@@ -1,11 +1,9 @@
-/*
-    @baseSum(array) sum of an array of numeric value
-    @param { array } numeric array
-    @param { func } a callback function
-    @returns { number } returns sum of an array
-
-*/
-
+/**
+ * baseSum(array) sum of an array of numeric value
+ * @param { array } numeric array
+ * @param { func } a callback function
+ * 
+ */
 export default function baseSum(array, func) {
     let result;
 
