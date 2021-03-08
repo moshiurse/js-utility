@@ -1,0 +1,4 @@
+export const nodeGlobal = typeof global === "object"
+    && global !== null
+    && global.Object === Object
+    && global;
