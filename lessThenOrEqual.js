@@ -2,7 +2,7 @@
  * lessThen() check value if less then or equal or not
  * @param { firstValue } firstValue to compare
  * @param { secondValue } secondValue to compare
- * @returns { boolean } returns true if value less then to other
+ * @returns { boolean } returns true if value less then or equal to other
  * 
  */
 export default function lessThenOrEqual(firstValue, secondValue) {
